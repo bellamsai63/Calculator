@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    height: 90%;
+    width: 30%;
+    border: 5px solid #1fe1d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(37, 37, 58);
+    border-radius: 20px;
+}
+
+input {
+    width: 80%;
+    height: 80px;
+    font-size: 40px;
+    text-align: end;
+    border: 2px solid rgba(191, 189, 189, 0.354);
+    color: white;
+    outline: none;
+    padding-right: 10px;
+    background: rgb(37, 37, 58);
+    border-radius: 10px;
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.box {
+    height: 70px;
+    width: 70px;
+    color: white;
+    background: rgb(37, 37, 58);
+    box-shadow: 0px 0px 5px 1px white;
+    font-size: 36px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    .parent {
+        height: 90%;
+        width: 30%;
+        border: 2px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: rgb(37, 37, 58);
+        border-radius: 20px;
+    }
+    input {
+        width: 90%;
+        height: 80px;
+        font-size: 40px;
+        text-align: end;
+        border: 2px solid rgba(191, 189, 189, 0.354);
+        color: white;
+        outline: none;
+        padding-right: 10px;
+        background: rgb(37, 37, 58);
+        border-radius: 10px;
+    }
+    .main {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box {
+        height: 50px;
+        width: 50px;
+        color: white;
+        background: rgb(37, 37, 58);
+        box-shadow: 0px 0px 5px 1px white;
+        font-size: 36px;
+        border-radius: 15px;
+        border: 2px solid white;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+    .parent {
+        height: 80%;
+        width: 50%;
+    }
+    input {
+        width: 90%;
+        height: 70px;
+    }
+    .box {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:700px) {
+    .parent {
+        height: 80%;
+        width: 70%;
+    }
+    input {
+        width: 90%;
+        height: 70px;
+    }
+    .box {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .parent {
+        height: 80%;
+        width: 90%;
+    }
+    input {
+        width: 90%;
+        height: 70px;
+    }
+    .box {
+        height: 40px;
+        width: 40px;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    .parent {
+        height: 80%;
+        width: 90%;
+    }
+    input {
+        width: 90%;
+        height: 70px;
+    }
+    .box {
+        height: 50px;
+        width: 50px;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:300px) {
+    .parent {
+        height: 50%;
+        width: 98%;
+    }
+    input {
+        width: 90%;
+        height: 50px;
+    }
+    .box {
+        height: 40px;
+        width: 40px;
+        font-size: small;
+    }
+    .main {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:200px) {
+    .parent {
+        height: 60%;
+        width: 98%;
+    }
+    input {
+        width: 98%;
+        height: 20px;
+    }
+    .box {
+        height: 20px;
+        width: 20px;
+        font-size: 8px;
+        box-shadow: none;
+    }
+    .main {
+        width: 97%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:50px) and (max-width:100px) {
+    .parent {
+        height: 60%;
+        width: 98%;
+        align-items: center;
+    }
+    input {
+        width: 98%;
+        height: 20px;
+    }
+    .box {
+        height: 15px;
+        width: 15px;
+        font-size: 8px;
+        box-shadow: none;
+    }
+    .main {
+        width: 97%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

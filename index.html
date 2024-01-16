@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <div class="parent">
+
+
+        <input type="text" name="display" id="display">
+
+
+        <div class="main">
+            <button class="box" id="btnop" onclick="btnop()">(</button>
+            <button class="box" id="btnclo" onclick="btnclo()">)</button>
+            <button class="box" id="del" onclick="del()">Del</button>
+            <button class="box" id="clear" onclick="clearAll()">AC</button>
+        </div>
+
+        <div class="main">
+            <button class="box" id="seven" onclick="seven()">7</button>
+            <button class="box" id="eight" onclick="eight()">8</button>
+            <button class="box" id="nine" onclick="nine()">9</button>
+            <button class="box slash" id="slash" onclick="slash()">/</button>
+        </div>
+
+        <div class="main">
+            <button class="box" id="four" onclick="four()">4</button>
+            <button class="box" id="five" onclick="five()">5</button>
+            <button class="box" id="six" onclick="six()">6</button>
+            <button class="box" id="mul" onclick="mul()">*</button>
+        </div>
+
+        <div class="main">
+            <button class="box" id="one" onclick="one()">1</button>
+            <button class="box" id="two" onclick="two()">2</button>
+            <button class="box" id="three" onclick="three()">3</button>
+            <button class="box" id="sub" onclick="sub()">-</button>
+        </div>
+
+        <div class="main">
+            <button class="box" id="dot" onclick="dot()">.</button>
+            <button class="box" id="zero" onclick="zero()">0</button>
+            <button class="box" id="equal" onclick="equal()">=</button>
+            <button class="box" id="add" onclick="add()">+</button>
+        </div>
+
+
+    </div>
+
+
+    <!--  JS Script  -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
